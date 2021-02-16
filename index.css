@@ -1,0 +1,22 @@
+:root {
+    --title: #333;
+    --background:aqua;
+    --button-border: #333;
+    --button: #555;
+    --button-hover: #444;
+    --button-active: #333;
+    --border: black;
+  }
+
+#containerGrid{
+    display:grid;
+    border:1px solid var(--border);
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+}
+
+.containerGridElement{
+    background-color: var( --background);
+    border:1px solid var(--border);
+}
